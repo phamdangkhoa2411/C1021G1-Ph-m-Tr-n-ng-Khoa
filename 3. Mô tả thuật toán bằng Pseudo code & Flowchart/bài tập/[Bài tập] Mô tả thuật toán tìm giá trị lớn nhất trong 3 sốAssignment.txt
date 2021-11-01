@@ -1,0 +1,7 @@
+Begin
+ Input a=max 
+  if b>Max
+   b=Max
+  else if c>Max
+   c=Max
+End

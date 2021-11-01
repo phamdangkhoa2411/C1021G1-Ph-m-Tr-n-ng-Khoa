@@ -1,0 +1,5 @@
+BEGIN
+   Input $
+   $1 = 23000 VND
+  Output VND
+END

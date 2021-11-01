@@ -1,0 +1,5 @@
+Begin
+ Input a,b,c 
+ Averge = (a+b+c)/3
+ Output " Averge"
+End
