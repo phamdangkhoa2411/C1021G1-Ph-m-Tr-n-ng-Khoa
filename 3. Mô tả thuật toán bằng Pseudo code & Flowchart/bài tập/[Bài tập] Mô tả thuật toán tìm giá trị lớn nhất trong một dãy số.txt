@@ -1,0 +1,16 @@
+BEGIN
+    INPUT a1, a2, a3, ... an
+    max = a1
+    i = 2
+    IF i > N
+    DISPLAY max
+    END IF
+    WHILE i <= N
+        DO
+        IF ai > max
+        max = ai
+        END IF
+        i = i + 1
+        END DO
+    DISPLAY MAX
+END
