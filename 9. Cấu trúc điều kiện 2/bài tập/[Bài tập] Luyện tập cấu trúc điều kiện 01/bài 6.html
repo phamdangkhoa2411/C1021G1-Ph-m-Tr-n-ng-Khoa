@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Sanpham = parseInt(prompt("Nhập số sản phẩm"))
+    let Hoahong;
+    if( Sanpham <= 10 && Sanpham > 0){
+        Hoahong = Sanpham*20000;
+        alert("Số tiền hoa hồng nhận được là: " + Hoahong +" VNĐ")
+    }else if(Sanpham>20 && Sanpham <= 30){
+        Hoahong = Sanpham*30000
+        alert("Số tiền hoa hồng nhận được là: " + Hoahong +" VNĐ")
+    }else{
+        Hoahong = Sanpham*50000
+        alert("Số tiền hoa hồng nhận được là: " + Hoahong +" VNĐ")
+    }
+</script>
+</body>
+</html>
