@@ -14,28 +14,39 @@
 <!--Bậc 5	Cho kWh từ 301 - 400	2.834-->
 <!--Bậc 6	Cho kWh từ 401 trở lên	2.927-->
 <script>
- let a=prompt('số điện')
-    let b=parseFloat(prompt('Giá tiền'))
-    switch (b) {
-     case "a>0 && a<50 " :
-     alert(b=a*1678) ;
-     break;
-     case "a>51 && a<100" :
-         alert(b*1.734);
-         break;
-         case "a>101 && a<200":
-             alert(b*2.014)
-             break;
-             case  "a>201 && a<300 ":
-                 alert(b*2.563);
-                 break;
-                 case "a>301 && a<400":
-                     alert(b*2.834);
-                     break;
-                     case "a>401":
-                         break;
-
-
+    let a=prompt("Nhập số điện:(kWh)")
+    let b1=1678
+    let b2=1734
+    let b3=2014
+    let b4=2536
+    let b5=2834
+    let b6=2927
+    if(a<0){
+        alert("Vui lòng nhập lại số điện:(kWh)")
+    }
+    else if(a<=50){
+        let c=a*b1
+        alert("Bạn đã sử dụng số điện trong khoảng từ 0 - 50 kWh số tiền bạn phải trả là:"+c)
+    }
+    else if(a<=100){
+        let e=50*b1+((a-50)*b2)
+        alert("Bạn đã sử dụng số điện trong khoảng từ 51 - 100 kWh số tiền bạn phải trả là:"+e)
+    }
+    else if(a<=200){
+        let f=50*b1+(50*b2)+((a-100)*3)
+        alert("Bạn đã sử dụng số điện trong khoảng từ 101 - 200 kWh số tiền bạn phải trả là:"+f)
+    }
+    else if(a<=300){
+        let g=50*b1+(50*b2)+(100*b3)+((a-200)*b4)
+        alert("Bạn đã sử dụng số điện trong khoảng từ 201 - 300 kWh số tiền bạn phải trả là:"+g)
+    }
+    else if(a<=400){
+        let h=50*b1+(50*b2)+(100*b3)+(100*b4)+((a-400)*b5)
+        alert("Bạn đã sử dụng số điện trong khoảng từ 301 - 400 kWh số tiền bạn phải trả là:"+h)
+    }
+    else{
+        let k=50*b1+(50*b2)+(100*b3)+(100*b4)+(100*b5)+((a-400)*b6)
+        alert("Bạn đã sử dụng số điện trên 400 kWh số tiền bạn phải trả là"+k)
     }
 </script>
 

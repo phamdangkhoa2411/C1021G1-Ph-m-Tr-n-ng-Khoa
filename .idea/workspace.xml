@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c87a2c3-530a-456e-9c32-4b028efc0657" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/3. Mô tả thuật toán bằng Pseudo code &amp; Flowchart/bài tập/[Bài tập] Mô tả thuật toán chuyển đổi tiền tệAssignment.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/3. Mô tả thuật toán bằng Pseudo code &amp; Flowchart/bài tập/[Bài tập] Mô tả thuật toán chuyển đổi tiền tệAssignment.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/[Thực hành] Sử dụng vòng lặp do-while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/[Thực hành] Sử dụng vòng lặp for/bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/[Thực hành] Sử dụng vòng lặp for/bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/[Thực hành] Sử dụng vòng lặp lồng nhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/[Thực hành] Sử dụng vòng lặp while/bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/[Bài tập] Sinh bảng cửu chương.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/[Bài tập] Câu lệnh switch-case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/[Bài tập] Luyện tập cấu trúc điều kiện 02/bài 11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/[Bài tập] Máy tính đơn giản.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/[Bài tập] Tính chỉ số cân nặng của cơ thể.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/[Bài tập] Luyện tập cấu trúc điều kiện 02/bài 10.html" beforeDir="false" afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/[Bài tập] Luyện tập cấu trúc điều kiện 02/bài 10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/thực hành/[Thực hành] Sự kiện bàn phím.html" beforeDir="false" afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/thực hành/[Thực hành] Sự kiện bàn phím.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +34,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1636074484744</updated>
       <workItem from="1636074489232" duration="103000" />
+      <workItem from="1636511166544" duration="2381000" />
     </task>
     <servers />
   </component>
@@ -42,10 +61,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1636074589371">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1636513764284">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1636074589371" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1636513764284" />
     <state x="391" y="84" key="RollbackChangesDialog" timestamp="1636074572609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
