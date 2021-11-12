@@ -2,24 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c87a2c3-530a-456e-9c32-4b028efc0657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/[Thực hành] Sử dụng vòng lặp do-while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/[Thực hành] Sử dụng vòng lặp for/bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/[Thực hành] Sử dụng vòng lặp for/bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/[Thực hành] Sử dụng vòng lặp lồng nhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10. Cấu trúc lặp 1/thực hành/[Thực hành] Sử dụng vòng lặp while/bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/[Bài tập] Sinh bảng cửu chương.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/[Bài tập] Câu lệnh switch-case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/[Bài tập] Luyện tập cấu trúc điều kiện 02/bài 11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/[Bài tập] Máy tính đơn giản.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/[Bài tập] Tính chỉ số cân nặng của cơ thể.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/[Bài tập] Hiển thị các số nguyên tố đầu tiên.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/[Bài tập] Luyện tập mảng 01/bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/[Bài tập] Luyện tập mảng 01/bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/[Bài tập] Luyện tập mảng 01/bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/[Bài tập] Luyện tập mảng 01/bài 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/[Bài tập] Luyện tập mảng 01/bài 6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/[Bài tập] Sử dụng các hàm có sẵn của mảng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/[Bài tập] Từ điển.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/[Bài tập] Luyện tập cấu trúc điều kiện 02/bài 10.html" beforeDir="false" afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/bài tập/[Bài tập] Luyện tập cấu trúc điều kiện 02/bài 10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/thực hành/[Thực hành] Sự kiện bàn phím.html" beforeDir="false" afterPath="$PROJECT_DIR$/9. Cấu trúc điều kiện 2/thực hành/[Thực hành] Sự kiện bàn phím.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/Bài tập] Luyện tập vòng lặp 02/baif 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/Bài tập] Luyện tập vòng lặp 02/bài 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/Bài tập] Luyện tập vòng lặp 02/bài 1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/Bài tập] Luyện tập vòng lặp 02/bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/Bài tập] Luyện tập vòng lặp 02/bài 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/[Bài tập] Luyện tập vòng lặp 01/bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/[Bài tập] Luyện tập vòng lặp 01/bài 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/[Bài tập] Luyện tập vòng lặp 01/bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/[Bài tập] Luyện tập vòng lặp 01/bài 4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/[Bài tập] Luyện tập vòng lặp 01/bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/[Bài tập] Luyện tập vòng lặp 01/bài 5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/[Bài tập] Luyện tập vòng lặp 01/bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/[Bài tập] Luyện tập vòng lặp 01/bài 6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/[Bài tập] Luyện tập vòng lặp 01/bài 7.html" beforeDir="false" afterPath="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập/[Bài tập] Luyện tập vòng lặp 01/bài 7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. Mảng 1/thực hành/[Thực hành] Tìm giá trị lớn nhất trong mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/12. Mảng 1/thực hành/[Thực hành] Tìm giá trị lớn nhất trong mảng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. Mảng 1/thực hành/[Thực hành] Tạo bàn cờ caro đơn giản.html" beforeDir="false" afterPath="$PROJECT_DIR$/12. Mảng 1/thực hành/[Thực hành] Tạo bàn cờ caro đơn giản.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. Mảng 1/thực hành/[thực hành ] đảo ngược các phần tử trong mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/12. Mảng 1/thực hành/[thực hành ] đảo ngược các phần tử trong mảng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12. Mảng 1/thực hành/[thực hành] tạo và thao tác với mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/12. Mảng 1/thực hành/[thực hành] tạo và thao tác với mảng.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,10 +46,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/11. Cấu trúc lặp 2/bài tập" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,6 +70,8 @@
       <updated>1636074484744</updated>
       <workItem from="1636074489232" duration="103000" />
       <workItem from="1636511166544" duration="2381000" />
+      <workItem from="1636699712086" duration="7440000" />
+      <workItem from="1636722565443" duration="7395000" />
     </task>
     <servers />
   </component>

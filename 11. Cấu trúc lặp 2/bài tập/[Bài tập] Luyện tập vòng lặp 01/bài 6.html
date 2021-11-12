@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<!--Nhân đôi chữ số cuối cùng rồi lấy các chữ số còn lại trừ cho phép nhân đó nếu kết quả chia hết cho
+ 7 thì số đã cho sẽ chia hết cho 7. ...-->
+<!--Nếu một số có 2 chữ số và ta lấy chữ số hàng chục nhân với 3 rồi cộng với chữ số hàng đơn vị.-->
+<script>
+ let i ;
+ let count =0;
+ let tong=0;
+  i=1
+    while (count <=29){
+      if(i%7==0){
+         document.write(i)
+          document.write('<br>')
+          count++;
+          tong=tong +i;
+      }
+      i++;
+    }
+    document.write("tong la "+ tong)
+</script>
 </body>
+
 </html>
