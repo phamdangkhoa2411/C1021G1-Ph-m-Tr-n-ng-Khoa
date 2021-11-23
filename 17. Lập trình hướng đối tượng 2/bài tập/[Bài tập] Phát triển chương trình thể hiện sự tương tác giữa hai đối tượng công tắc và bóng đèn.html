@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    class CongTacDien{
+        constructor(status,lamp) {
+            this.status = status; //on hoặc off
+            this.lamp = lamp;
+        };
+        ketNoiBongDien(lamp){
+            this.lamp = lamp;
+            console.log('đã kết nối với bóng đèn');
+        };
+        batCongTac(){
+            this.status=true;
+            this.lamp.turnOn;
+            console.log('bật công tắc');
+        };
+        tatCongTac(){
+        this.status=false;
+        this.lamp.turnOff;
+            console.log('tắt công tắc :');
+        };
+
+    }
+    class BongDen {
+        constructor(status) {
+            this.status=status;
+        };
+        turnOn(){
+            this.status=true;
+            console.log('bóng đèn sáng');
+        };
+        turnOff(){
+            this.status=false;
+            console.log('bóng đèn tắc');
+        };
+    }
+    let congtacdien = new CongTacDien();
+    let bongden = new BongDen();
+    console.log(congtacdien);
+    console.log(bongden);
+    congtacdien.ketNoiBongDien(bongden);
+    congtacdien.batCongTac();
+    bongden.turnOn();
+    congtacdien.tatCongTac();
+    // bongden.turnOff();
+
+</script>
 </body>
 </html>

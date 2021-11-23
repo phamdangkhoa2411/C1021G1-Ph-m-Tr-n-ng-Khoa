@@ -2,9 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    class Apple{
+        constructor(khoiLuong) {
+            this.khoiLuong = khoiLuong;
+        }
+    }
+    class Human {
+        constructor(name, gender, weight) {
+            this.name = name;
+            this.gender = gender;
+            this.weight = weight;
+        }
+        say(text){
+            console.log(this.name + ": " +text);
+        }
+        eat() {
+            console.log(this.name + " ăn táo ");
+            this.weight++;
+            tao.khoiLuong--;
+            console.log("khối lượng của "+this.name + " sau khi ăn táo là: " + this.weight);
+        }
+        check (apple) {
+            console.log("khối lượng quả táo sau khi bị ăn là : "+ tao.khoiLuong);
+        }
+    }
+    let tao = new Apple(10);
+    let adam = new Human("Adam", "nam", 55);
+    let eva = new Human("Eva", "nu", 45);
+    console.log((adam));
+    console.log(eva);
+    eva.say(" hi");
+    adam.say("hello ");
+    eva.eat();
+    adam.eat();
+    adam.check();
+
+</script>
 </body>
 </html>

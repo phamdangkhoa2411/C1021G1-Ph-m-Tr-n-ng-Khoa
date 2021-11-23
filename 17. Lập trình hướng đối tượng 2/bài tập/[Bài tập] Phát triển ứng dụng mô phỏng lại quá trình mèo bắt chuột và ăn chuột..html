@@ -2,9 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    class Rat{
+        constructor(name,weight,speed,status) {
+            this.name = name;
+            this.weight = weight;
+            this.speed = speed;
+            this.status = status;//song va chet
+        }
+        growl (){
+            console.log(this.name+':chit chit')
+        }
+    }
+    class Cat {
+        constructor(name,weight,speed) {
+            this.name = name;
+            this.weight = weight;
+            this.speed = speed;
+        }
+        growl () {
+            console.log(this.name + ':mew mew');
+        }
+        catchRat (ratObj){
+            console.log('  catch rat');
+            if (this.speed>ratObj.speed){
+                this.eatRat(ratObj);
+            }else {
+                console.log('chạy nhanh quá !');
+            }
+
+        }
+        eatRat (ratObj){
+            console.log('  eat rat');
+            if (ratObj.status == 'song'){
+                this.weight += ratObj.weight;
+                ratObj.status == 'chet';
+                console.log('ăn no rồi, khối lượng mèo'+ this.weight);
+            }
+            else {
+                console.log('không ăn đâu');
+            }
+        }
+    }
+    let ratO = new Rat('mickey',2,10,'song');
+    let catO= new Cat('Tom',6,20);
+    console.log(ratO);
+    console.log(catO);
+    ratO.growl();
+    catO.growl();
+    catO.catchRat(ratO);
+
+</script>
 </body>
 </html>
