@@ -5,15 +5,79 @@
 </head>
 <body>
 <script>
-    class mobile{
-    constructor(battery, memoryArea1, memoryArea2, memoryArea3,status) {
-        this.battery = battery;
-        this.memoryArea1 = memoryArea1;
-        this.memoryArea2 = memoryArea2;
-        this.memoryArea3 = memoryArea3;
-        this.status = status;
+    class Mobile {
+        constructor(name, pin, trangThai) {
+            this.name = name;
+            this.pin = pin;
+            this.trangThai = trangThai;
+            this.tinnhan = "";
+            this.hopThuDen = [];
+            this.tinNhanDaGui = [];
+        }
+        batTat() {
+            if (this.trangThai == "bat") {
+                document.write("dien thoai dang on"+"</br>")
+            } else {
+                document.write("dien thoai dang off")
+            }
+        }
+
+        xacDienThoai() {
+            this.pin = 100;
+            document.write(this.name + " sau khi xac : " + this.pin+"</br>");
+        }
+
+        soanTinNhan(text) {
+            document.write(this.name + " soan tin nhan : " + text+"</br>");
+            this.tinnhan = text;
+            this.pin--;
+            document.write("pin : " + this.pin);
+        }
+
+        guitinnhan(dich) {
+            // console.log(this.name + " gửi tin nhắn cho : " + dich.name + " với nội dung " + this.tinnhan);
+            dich.nhanTinNhan(this.tinnhan);
+            this.tinNhanDaGui.push(this.tinnhan);
+            this.tinnhan = "";
+            this.pin--;
+        }
+
+        nhanTinNhan(tinnhan) {
+            document.write(this.name + " nhan tin nhan " + tinnhan+"</br>");
+            this.hopThuDen.push(tinnhan);
+            this.pin--;
+            document.write("pin : " + this.pin+"</br>");
+        }
+        xemTinNhanDaGui() {
+            document.write(this.name + " tin nhan da gui : "+"</br>")
+            for (let i = 0; i < this.tinNhanDaGui.length; i++) {
+                document.write(i + " : " + this.tinNhanDaGui[i]+"</br>");
+            }
+            this.pin--;
+            document.write("pin : " + this.pin+"</br>");
+        }
+        xemTinNhanDaNhan(){
+           document.write(this.name + " tin  nhan da nhan la : " + this.hopThuDen+"</br>");
+            this.pin--;
+            document.write("pin : " + this.pin+"</br>");
+        }
     }
-}
+    let nokia = new Mobile("nokia",50,"bat" );
+    let iphone = new Mobile("iphone",70,"bat");
+    nokia.xacDienThoai();
+    nokia.soanTinNhan(" hello apple");
+    nokia.guitinnhan(iphone);
+    nokia.soanTinNhan("I,m nokia");
+    nokia.guitinnhan(iphone);
+    iphone.nhanTinNhan('nokia');
+    iphone.soanTinNhan("hi nokia, how are you ");
+    iphone.guitinnhan(nokia);
+    nokia.nhanTinNhan('iphone');
+    nokia.soanTinNhan("I'm fine");
+    // nokia.xemTinNhanDaGui();
+    // nokia.xemTinNhanDaNhan();
+    // iphone.xemTinNhanDaGui();
+    // iphone.xemTinNhanDaNhan();
 </script>
 </body>
 </html>
