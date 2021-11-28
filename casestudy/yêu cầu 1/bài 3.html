@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let chieudai=parseInt(prompt("nhập chiều dài ="));
+    for(let i=0;i<chieudai;i++) {
+        for(let j=0;j<2*chieudai;j++){
+            let a = (((2*chieudai-1))- (2*i+1))/2;
+            if(j>a-1&&j<a+(2*i+1)){
+                document.write("*");
+            }else {
+                document.write("&nbsp;&nbsp;");
+            }
+        }document.write("<br>")
+    }
+</script>
+</body>
+</html>

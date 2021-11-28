@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=[];
+    let n = parseInt(prompt("Vui long nhap so luong phan tu: "));
+
+    for (let i = 0; i < n; i++) {
+        a[i] = parseInt(prompt("Nhap phan tu " + i));
+    }
+
+    let b=[];
+    for (let j = 0; j < n; j++) {
+        b[j] = parseInt(prompt("Nhap phan tu " + j));
+    }
+
+    // let a=[5,2,5];
+    // let b=[6,3,4];
+    let max=a[0]/b[0];
+    let index=0;
+    for(let i=1;i<a.length;i++){
+        for(let j=1;j<b.length;j++){
+            if(a[i]/b[j]>max){
+                max= a[i]/b[j]
+                index =i;
+            }
+        }
+
+    }
+    alert(a[index] + '/' + b[index ]+ 'là phân số lớn nhât có chỉ số là ' + index);
+</script>
+</body>
+</html>

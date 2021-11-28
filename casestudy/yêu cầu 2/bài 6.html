@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let kyTu = prompt('nhập chữ cái')
+    // if(kyTu >=0 || kyTu <= 0) {
+    //     alert("Yêu cầu nhập ký tự Tiếng Anh");
+    // }
+    if(isNaN(parseInt(kyTu))) {
+
+            switch (kyTu) {
+                case 'o':
+                case 'O':
+                case 'u':
+                case 'U':
+                case 'i':
+                case 'I':
+                case 'a':
+                case 'A':
+                case 'e':
+                case 'E':
+                    alert('là nguyên âm')
+                    break;
+                default:
+                    alert('là phụ âm')
+            }
+    } else {
+        alert("nhập chữ vào đây")
+    }
+</script>
+</body>
+</html>

@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c87a2c3-530a-456e-9c32-4b028efc0657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/[Bài tập] Luyện tập mảng 02/bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13. Mảng 2/bài tập/[Bài tập] Luyện tập mảng 02/bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bài 1c08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy/yêu cầu 1/bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy/yêu cầu 4/bài 14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy/yêu cầu 5/bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy/yêu cầu 5/bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/câu 1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16. Lập trình hướng đối tượng 1/bài tâp/[Bài tập] Xây dựng lớp mô tả hình chữ nhật.html" beforeDir="false" afterPath="$PROJECT_DIR$/16. Lập trình hướng đối tượng 1/bài tâp/[Bài tập] Xây dựng lớp mô tả hình chữ nhật.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy/bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy/bài 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy/bài 5.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/13. Mảng 2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +63,10 @@
       <workItem from="1636699712086" duration="7440000" />
       <workItem from="1636722565443" duration="7395000" />
       <workItem from="1636867275950" duration="430000" />
+      <workItem from="1637891670997" duration="3144000" />
+      <workItem from="1637986157106" duration="3847000" />
+      <workItem from="1638028792668" duration="711000" />
+      <workItem from="1638080509173" duration="1312000" />
     </task>
     <servers />
   </component>

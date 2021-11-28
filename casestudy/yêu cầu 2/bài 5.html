@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let staff=parseInt(prompt('Nhập lương nhân viên ='));
+    if(staff>=15){
+        let a = (staff*20)/100;
+        let x= staff-a;
+        alert('thếu nhân viên trên 15 triệu là:'+a+'triệu');
+        alert('lương ròng của nhân viên là'+x+'triệu');
+    }else if(staff>=7||staff<=15){
+        let b =(staff*10)/100;
+        let y = staff-b;
+        alert('thếu nhân viên từ 7 triệu đến 15 triệu'+b+'triệu');
+        alert('lương ròng của nhân viên là'+y+'triệu');
+    }else {
+        let c= (staff*5)/100;
+        let z= staff-c;
+        alert('thuế nhân viên dưới 7 triệu'+c+"triệu");
+        alert('lương ròng của nhân viên là'+z+'triệu');
+    }
+</script>
+</body>
+</html>

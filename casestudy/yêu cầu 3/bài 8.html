@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let A=[7,2,5,3,5,3];
+let B=[7,2,5,4,6,3,5,3];
+let C=[];
+for(let i=0;i<A.length;i++){
+for(let j=0;j<B.length;j++){
+if(A[i] === B[j]){
+B.splice(j,1);
+C.push(B);
+
+}
+}
+}console.log(B)
+let n= parseInt(prompt("nhập số lượng phần tử vào mảng A="));
+let m= parseInt(prompt("nhập phần tử vào mảng B="));
+let A=[];
+for( let i=0;i<=n;i++){
+let A[i]=parseInt(prompt("nhập phần tử A"))
+}
+</script>
+</body>
+</html>
